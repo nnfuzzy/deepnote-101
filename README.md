@@ -1,4 +1,5 @@
-## Minimal toolset to work with Jupyter Notebook Cloud Services (e.g. deepnote.com)
+## Minimal toolset to work with deepnote
+![localImage](deepnote_notebook.png)
 
 1. Docker 
 Sometimes you have problems with your dependencies, so just generate your own docker image and you're good to go.
@@ -13,5 +14,3 @@ Working with Notebooks demands sometimes external data and instead of uploading 
 3. Notebook
 To have quick working example , you'll find attached a simple Notebook with some chat gpt api testing.
 Ideally you start with your integrations.
-
-![localImage](deepnote_notebook.png)
