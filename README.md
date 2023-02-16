@@ -15,5 +15,5 @@ To test some integrations (e.g. S3 and a database) you can create your resources
    * terraform output -raw db_password
 
 ##  Notebook
-To have a quick working example , you'll find attached a simple notebook with some chatgpt api testing. But before, you should add your integrations integrations quickly with the credentials and connection details from your 
+To have a quick working example , you'll find attached a simple notebook with some chatgpt api testing. But before, you should add your integrations quickly with the credentials and connection details from your 
 resources.
