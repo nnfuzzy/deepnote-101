@@ -1,16 +1,19 @@
-## Minimal toolset to work with deepnote
+# deepnote-101 (A simple test)
 ![localImage](deepnote_notebook.png)
 
-1. Docker 
-Sometimes you have problems with your dependencies, so just generate your own docker image and you're good to go.
-   * docker build -t you/image_name:latest . # replace you & image_name with approriate values 
-   * docker push you/image_name # Push it to dockerhub
-2.Terraform 
-Working with Notebooks demands sometimes external data and instead of uploading I like it to use the integrations inside deepnote (e.g. S3 and a database).
-3. * cd terraform
+## Docker 
+Sometimes you have problems with your dependencies, therefore just generate your own docker image and you're good to go.
+* docker build -t you/image_name:latest . # replace you & image_name with approriate values 
+* docker push you/image_name # Push it to dockerhub
+
+## Terraform 
+To test some integrations (e.g. S3 and a database) you can create your resources with terraform fast.
+   
+   * cd terraform
    * terraform init
    * terraform apply
    * terraform output -raw db_password
-3. Notebook
-To have quick working example , you'll find attached a simple Notebook with some chat gpt api testing.
-Ideally you start with your integrations.
+
+##  Notebook
+To have quick working example , you'll find attached a simple Notebook with some chatgpt api testing. But before, you should add your integrations integrations quickly with the credentials and connection details from your 
+resources.
